@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.gidole-regular {
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor:pointer;
+
+}
+menu:hover {
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    height: 140px;
+    width: 100%;
+    background-color: #00D1C0;
+    border-bottom: 1.5px solid white;
+    position: fixed;
+   
+}
+
+.eg h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.logo img {
+    width: 102px;
+    height: 92px;
+    margin-left: 18px;
+}
+
+li:hover {
+    color: black;
+}
+
+.social {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+
+
+.social img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
+
+.first {
+    background-size: cover;
+    background-image: url("FirstImage.webp");
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.eg {
+    background-color: rgba(10, 91, 42, 0.801);
+    border-radius: 90px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    width: 517px;
+    height: 184px;
+    
+}
+
+.eg h1 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.second {
+    background-size: cover;
+    background-image: url("SecondImage.webp");
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third {
+    background-image: url("thirdimage.webp");
+    background-size: cover;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.sub{
+    width: 584px;;
+}
+
+
+.view-recipes-button {
+    display:inline-block;
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+    width: 154px;
+    height: 44px;
+
+
+}
+
+.view-recipes-button:hover {
+    background: white;
+    color: #0a5b2a;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("footer-background.webp");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Gidole', sans-serif;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+ .first p{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width:80%;
+    max-width: 80%; 
+    margin: 0 auto;
+    
+
+}
